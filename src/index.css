@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +10,20 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+input[type="text"] , input[type="password"],input[type="tel"] ,input[type="email"],input[type="number"],textarea {
+  @apply w-full border text-2xl  my-2 py-2 px-3 rounded-2xl; 
+}
+
+button {
+  @apply bg-gray-300  
+}
+
+button.primary {
+
+  @apply bg-primary text-2xl p-2 w-full text-white rounded-2xl
+}
+textarea {
+  height: 240px;
 }
