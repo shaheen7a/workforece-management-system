@@ -12,7 +12,8 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/base": "^5.0.0-alpha.117",
-    "@mui/material": "^5.11.8",
+    "@mui/material": "^5.11.9",
+    "@mui/x-data-grid": "^5.17.23",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1"

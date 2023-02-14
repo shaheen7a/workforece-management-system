@@ -1,6 +1,6 @@
 export const user = {
-  email: "jaafar@gmail.com",
-  name: "jaafar",
+  email: "name@gmail.com",
+  name: "User",
 };
 export const users = [
   {

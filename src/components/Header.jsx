@@ -28,14 +28,14 @@ const Header = () => {
         </ul>
       </div>
 
-      {!user ? (
+      {user ? (
         <div className="btns">
           <Link
             to="/login"
             style={{
               backgroundColor: "#fff",
-              color: "#1E90FF",
-              border: "1px solid #1E90FF",
+              color: "#00BFA6",
+              border: "1px solid #00BFA6",
               borderRadius: "5px",
               padding: "10px 20px",
               textDecoration: "none",
@@ -51,8 +51,8 @@ const Header = () => {
             to="/register"
             style={{
               backgroundColor: "#fff",
-              color: "#1E90FF",
-              border: "1px solid #1E90FF",
+              color: "#00BFA6",
+              border: "1px solid #00BFA6",
               borderRadius: "5px",
               padding: "10px 20px",
               textDecoration: "none",
