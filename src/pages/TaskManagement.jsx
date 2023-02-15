@@ -6,6 +6,10 @@ const TaskManagement = () => {
   return (
     <div>
       <Header />
+      <div className='mt-10 w-[600px] '>
+        <h2 className='mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-2xl'>This webpage features a concise and orderly presentation of <mark className='px-2 text-white bg-gray-700 rounded dark:bg-gray-700'>employees</mark> and their <mark className='px-2 text-white bg-gray-700 rounded dark:bg-gray-700'>assigned tasks.</mark></h2>
+      </div>
+
       <div className='flex justify-between'>
         <div className='mt-10'>
           <h3 className='text-gray-900 font-extrabold '>Employee List: </h3>
@@ -26,7 +30,7 @@ const TaskManagement = () => {
         </div>
 
 
-        <di className="mt-10">
+        <div className="mt-10">
           <h3 className='text-gray-900 font-extrabold'>Tasks Table: </h3>
           <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
             <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
@@ -35,7 +39,7 @@ const TaskManagement = () => {
                   <th scope="col" class="p-4">
                     <div class="flex items-center">
                       <input id="checkbox-all-search" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                        <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                      <label for="checkbox-all-search" class="sr-only">checkbox</label>
                     </div>
                   </th>
                   <th scope="col" class="px-6 py-3">
@@ -60,7 +64,7 @@ const TaskManagement = () => {
                   <td class="w-4 p-4">
                     <div class="flex items-center">
                       <input id="checkbox-table-search-1" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                        <label for="checkbox-table-search-1" class="sr-only">checkbox</label>
+                      <label for="checkbox-table-search-1" class="sr-only">checkbox</label>
                     </div>
                   </td>
                   <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
@@ -84,7 +88,7 @@ const TaskManagement = () => {
                   <td class="w-4 p-4">
                     <div class="flex items-center">
                       <input id="checkbox-table-search-2" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                        <label for="checkbox-table-search-2" class="sr-only">checkbox</label>
+                      <label for="checkbox-table-search-2" class="sr-only">checkbox</label>
                     </div>
                   </td>
                   <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
@@ -108,7 +112,7 @@ const TaskManagement = () => {
                   <td class="w-4 p-4">
                     <div class="flex items-center">
                       <input id="checkbox-table-search-3" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                      <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
                     </div>
                   </td>
                   <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
@@ -132,7 +136,7 @@ const TaskManagement = () => {
                   <td class="w-4 p-4">
                     <div class="flex items-center">
                       <input id="checkbox-table-search-3" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                      <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
                     </div>
                   </td>
                   <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
@@ -156,7 +160,7 @@ const TaskManagement = () => {
                   <td class="w-4 p-4">
                     <div class="flex items-center">
                       <input id="checkbox-table-search-3" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                      <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
                     </div>
                   </td>
                   <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
@@ -180,7 +184,7 @@ const TaskManagement = () => {
             </table>
           </div>
 
-        </di>
+        </div>
       </div>
       <Footer />
     </div>

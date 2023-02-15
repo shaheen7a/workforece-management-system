@@ -28,7 +28,12 @@ const EmployeeScheduling = () => {
   return (
     <div>
       <Header />
-      <div className='flex justify-between'>
+      <div className='mt-10 w-[600px] '>
+        <h2 className='mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-2xl'>
+          This web page provides employees with the ability to <mark className='px-2 text-white bg-gray-700 rounded dark:bg-gray-700'>view and manage</mark>their work schedules and shifts.</h2>
+      </div>
+
+      <div className='flex justify-between mt-10'>
         <div className='mt-10'>
           <form>
             <div class="relative z-0 w-full mb-6 group">
