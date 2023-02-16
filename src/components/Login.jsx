@@ -16,7 +16,7 @@ const Login = () => {
 
   return (
     <div>
-      <div className="logo text-white bg-primary p-6 ">
+      <div className="logo p-6 ">
         Workforce Management
       </div>
 
