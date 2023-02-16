@@ -33,6 +33,7 @@ const Register = () => {
           required
           value={name}
           onChange={(e) => setName(e.target.value)}
+          className="w-full border my-1 py-2 px-3 rounded-2xl"
         />
 
         <input
@@ -41,6 +42,7 @@ const Register = () => {
           required
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          className="w-full border my-1 py-2 px-3 rounded-2xl"
         />
         <input
           type="text"
@@ -48,6 +50,7 @@ const Register = () => {
           required
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          className="w-full border my-1 py-2 px-3 rounded-2xl"
         />
 
         <button className="primary">Register</button>

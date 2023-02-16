@@ -6,49 +6,63 @@ export const users = [
   {
     email: "user1@gmail.com",
     name: "user1",
-    employeeId	 : "42342342",
-    statusPresent : false,
+    employeeId: "42342342",
+    statusPresent: false,
+    lastName: "fdasdfa",
+    department: "1",
+    sex: "male",
+    shift: "5-9",
   },
   {
     email: "user2@gmail.com",
     name: "user2",
-    employeeId	 : "645643545",
-    statusPresent : false,
-
-
+    lastName: "fdsfasdfas",
+    employeeId: "645643545",
+    statusPresent: false,
+    department: "2",
+    sex: "male",
+    shift: "5-9",
   },
   {
     email: "user3@gmail.com",
     name: "user3",
-    employeeId	 : "fasfaso90",
-    statusPresent : false,
+    employeeId: "fasfaso90",
+    lastName: "fdfasdd",
+    department: "3",
+    sex: "male",
+    shift: "5-9",
 
-
+    statusPresent: false,
   },
   {
     email: "user4@gmail.com",
+    lastName: "john",
     name: "user4",
-    employeeId	 : "fasfafsdfsso90",
-    statusPresent : false,
-
-
+    employeeId: "fasfafsdfsso90",
+    statusPresent: false,
+    department: "6",
+    sex: "male",
+    shift: "remote",
   },
   {
+    lastName: "fdsffd",
     email: "user5@gmail.com",
     name: "user5",
-    employeeId	 : "fas534534ao90",
-    statusPresent : false,
-
-
+    employeeId: "fas534534ao90",
+    statusPresent: false,
+    department: "3",
+    sex: "male",
+    shift: "5-9",
   },
   {
+    lastName: "fddfsd",
+
     email: "user6@gmail.com",
     name: "user6",
-    employeeId	 : "29053692",
-    statusPresent : false,
-
-
+    employeeId: "29053692",
+    statusPresent: false,
+    department: "re",
+    sex: "male",
+    shift: "remote",
   },
-
-
 ];
